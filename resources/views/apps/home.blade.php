@@ -7,13 +7,16 @@
         <div class="container-fluid nav-tabs py-3 color-primer">
             <div class="nav-tabs-list d-flex flex-row justify-content-around">
                 <a class="d-flex flex-column align-items-center" href="#" @click.prevent="tab = 'invite'; window.location.hash = 'invite'">
-                    <p class="color-milo"><i class="fa-solid fa-envelope-open-text pb-1"></i> Invite</p>
+                    <i class="fa-solid fa-envelope-open-text pb-1"></i>
+                    Invite
                 </a>
                 <a class="d-flex flex-column align-items-center" href="#" @click.prevent="tab = 'qr-scan'; window.location.hash = 'qr-scan'">
-                    <p class="color-milo"><i class="fa-solid fa-qrcode pb-1"></i> QR Scan</p>
+                    <i class="fa-solid fa-qrcode pb-1"></i>
+                    QR Scan
                 </a>
                 <a class="d-flex flex-column align-items-center" href="#" @click.prevent="tab = 'wishes'; window.location.hash = 'wishes'">
-                    <p class="color-milo"><i class="fa-brands fa-gratipay pb-1"></i> Wishes</p>
+                    <i class="fa-brands fa-gratipay pb-1"></i>
+                    Wishes
                 </a>
             </div>
         </div>

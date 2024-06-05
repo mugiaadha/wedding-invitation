@@ -21,7 +21,7 @@
             </div>
             <div class="col-12 row p-0 m-0" align="center">
                 <div class="col-4 p-0 m-0">
-                    <button class="btn btn-success" wire:click.prevent="updateResponse('Hadir')" style="width:80%; font-size: 95%;">
+                    <button class="btn btn-success" wire:click.prevent="updateResponse('Hadir')" style="width:95%; font-size: 85%;">
                         @if ($response == 'Hadir')
                             <i class="fa-solid fa-check"></i>
                         @endif
@@ -29,7 +29,7 @@
                     </button>
                 </div>
                 <div class="col-4 p-0 m-0">
-                    <button class="btn btn-warning color-white" wire:click.prevent="updateResponse('Masih Ragu')" style="width:80%; font-size: 95%;">
+                    <button class="btn btn-warning color-white" wire:click.prevent="updateResponse('Masih Ragu')" style="width:95%; font-size: 85%">
                         @if ($response == 'Masih Ragu')
                             <i class="fa-solid fa-check"></i>
                         @endif
@@ -37,7 +37,7 @@
                     </button>
                 </div>
                 <div class="col-4 p-0 m-0">
-                    <button class="btn btn-danger" wire:click.prevent="updateResponse('Tidak Hadir')" style="width:80%; font-size: 95%;">
+                    <button class="btn btn-danger" wire:click.prevent="updateResponse('Tidak Hadir')" style="width:95%; font-size: 85%">
                         @if ($response == 'Tidak Hadir')
                             <i class="fa-solid fa-check"></i>
                         @endif

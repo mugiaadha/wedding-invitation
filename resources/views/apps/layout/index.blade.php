@@ -13,13 +13,8 @@
 
     <style>
         .color-primer {
-            background-image: url("../img/bg-leaf.png");
-            background-repeat: repeat;
-            background-size: 10%;
-        }
-        
-        .color-milo {
-            color: #aa7f23;
+            background-image: linear-gradient(to bottom right, #c54eed, #3b084d);
+            color: #c54eed;
         }
 
         .bg-pink {

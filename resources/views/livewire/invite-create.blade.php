@@ -1,5 +1,5 @@
 <div class="pb-3 mb-2" x-data="{ create: false }">
-    <a x-on:click="create = !create" href="#" class="btn-invite"><i class="fa-solid fa-circle-plus pe-2"></i>Invite</a>
+    <a x-on:click="create = !create" href="#" class="btn-invite color-primer"><i class="fa-solid fa-circle-plus pe-2"></i>Invite</a>
     <form wire:submit.prevent="addInvite">
         <div x-show="create" class="create-form">
             <div class="d-flex">

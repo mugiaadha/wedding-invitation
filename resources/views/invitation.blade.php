@@ -206,6 +206,10 @@
 	<script src="{{ asset("js/flickerplate.js") }}"></script>
 	<script>
 		new flickerplate('.flicker-example');
+		
+		setTimeout(function () {
+		    document.querySelector('[href="https://www.000webhost.com/?utm_source=000webhostapp&utm_campaign=000_logo&utm_medium=website&utm_content=footer_img"]').remove();
+		}, 1000)
 
         function soundOn() {
             var snd = new Audio("{{ asset("music/music.mp3") }}");

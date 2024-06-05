@@ -19,7 +19,7 @@
 	<link href="{{ asset("css/demo.css") }}"  type="text/css" rel="stylesheet">
     @livewireStyles
 
-    <title>{{ $title }}</title>
+    <title>{{ $title ?? '' }}</title>
 
     <style>
         body {
