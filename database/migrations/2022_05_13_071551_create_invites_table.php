@@ -19,6 +19,7 @@ return new class extends Migration
             $table->integer('quota');
             $table->string('uniqid');
             $table->string('presence')->default('false');
+            $table->string('response')->default('belum ada tanggapan');
             $table->string('time')->default('None');
             $table->timestamps();
         });
