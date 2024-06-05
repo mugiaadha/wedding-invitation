@@ -87,7 +87,7 @@
                                 </div>
                                 <div class="input-group mb-3">
                                     <input type="text" class="form-control shadow-none" id="share"
-                                    value="https://noshiwedding.herokuapp.com/invitation/{{ $invite->uniqid }}" aria-describedby="copy-link">
+                                    value="{{ route('invite', ['invite'=>$invite->uniqid]) }}" aria-describedby="copy-link">
                                     <button class="btn btn-outline-secondary shadow-none" data-clipboard-target="#share" type="button" id="copy-link">Copy</button>
                                 </div>
                             </div>
