@@ -54,7 +54,7 @@
         <div data-aos="zoom-in" data-aos-duration="1000" class="py-5">
             <h1 class="schedule-title color-milo" style="font-family: 'BrandonText';">Assalamualaikum wr.wb. </h1>
             <p class="color-milo" align="center">Dengan segala kerendahan hati,
-                <br>kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami
+                <br>kami mengundang Bapak/Ibu/Saudara/i <br>untuk menghadiri pernikahan kami
             </p>
             <br>
             <br>
