@@ -4,9 +4,9 @@ Halo {{$name}} 👋<br>
 <br>
 Dengan penuh sukacita dan kebahagiaan, kami dengan rendah hati mengundang Anda untuk berbagi momen spesial dalam rencana pernikahan kami:<br>
 <br>
-Bona Brian Siagian<br>
+Erika Karenina Rusdaya<br>
 &<br>
-Silvia Novianty Sitorus<br>
+Mugia Adha Kusumah<br>
 <br>
 🎊 Akad akan dilangsungkan pada:<br>
 🗓 Minggu, 08 September 2024<br>
