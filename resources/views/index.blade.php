@@ -44,8 +44,17 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent" style="position: relative; bottom: -50px;" align="center">
+        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-none d-md-block" style="position: relative; bottom: -85px;" align="center">
             <p class="m-0">
+            desktop
+            بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+            <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
+            <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
+            </p>
+        </div>
+        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-block d-md-none" style="bottom: -50px;" align="center">
+            <p class="m-0">
+            mobile
             بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
             <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
             <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
