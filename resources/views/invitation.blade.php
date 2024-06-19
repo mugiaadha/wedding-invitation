@@ -62,24 +62,6 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                         <div class="box-milo shadow mt-2 bg-leaf">
-                            <div class="venue-wrapper p-4">
-                                <h4 class="color-milo">Tempat</h4>
-                                <p>
-                                    <a class="color-milo link" target="_blank" href="https://www.google.com/maps/dir//Jl.+Kolonel+Masturi+No.Km.+3,+Cipageran,+Kec.+Cimahi+Utara,+Kota+Cimahi,+Jawa+Barat+40511/@-6.8481992,107.466372,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e38a9e165101:0x47ba4cab976c7751!2m2!1d107.5487739!2d-6.8482062?entry=ttu" title="see the location">
-                                        <i class="fa-solid fa-location-dot pe-2"></i>(Kabuci) kampung Buyut Cipageran Asih Putera, <br>Jl. Kolonel Masturi No.Km. 3, Cipageran, Cimahi Utara, <br>Cimahi City, West Java 40511
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="invitation container-fluid text-center" data-aos="fade" data-aos-duration="1000">
-                                <div class="qr-code pb-4">
-                                    {!! QrCode::size(250)->generate($uniqid) !!}
-                                </div>
-                                <h6 class="color-milo pb-2">Scan QR Code<br>Sebelum masuk tempat pernikahan</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="box-milo shadow mt-2 bg-leaf">
                             <div class="date-wrapper p-4 m-5">
                                 <h4 class="color-milo">Akad</h4>
                                 <p>
@@ -98,6 +80,24 @@
                                         <br><i class="fa-solid fa-clock pe-2"></i>11:00 AM - 03:00 PM
                                     </a>
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="box-milo shadow mt-2 bg-leaf">
+                            <div class="venue-wrapper p-4">
+                                <h4 class="color-milo">Tempat</h4>
+                                <p>
+                                    <a class="color-milo link" target="_blank" href="https://www.google.com/maps/dir//Jl.+Kolonel+Masturi+No.Km.+3,+Cipageran,+Kec.+Cimahi+Utara,+Kota+Cimahi,+Jawa+Barat+40511/@-6.8481992,107.466372,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e38a9e165101:0x47ba4cab976c7751!2m2!1d107.5487739!2d-6.8482062?entry=ttu" title="see the location">
+                                        <i class="fa-solid fa-location-dot pe-2"></i>(Kabuci) kampung Buyut Cipageran Asih Putera, <br>Jl. Kolonel Masturi No.Km. 3, Cipageran, Cimahi Utara, <br>Cimahi City, West Java 40511
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="invitation container-fluid text-center" data-aos="fade" data-aos-duration="1000">
+                                <div class="qr-code pb-4">
+                                    {!! QrCode::size(250)->generate($uniqid) !!}
+                                </div>
+                                <h6 class="color-milo pb-2">Scan QR Code<br>Sebelum masuk tempat pernikahan</h6>
                             </div>
                         </div>
                     </div>
