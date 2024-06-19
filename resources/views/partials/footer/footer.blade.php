@@ -7,7 +7,7 @@
         <h2 class="text-center color-milo" style="font-family: 'BrandonText';"><i class="fa-solid fa-envelope pb-1"></i> Amplop Digital</h2>
         <br>
         <p class="text-center color-milo" style="font-family: 'BrandonText';">
-            Kehadiran Bapak/Ibu/Saudara/i di pernikahan kami adalah hadiah terbesar yang telah kami terima. Namun bagi Anda yang ingin memberikan tanda kasih untuk kami, dapat melalui
+            Kehadiran Bapak/Ibu/Saudara/i di pernikahan kami adalah hadiah terbesar yang telah kami terima. Namun bagi Bapak/Ibu/Saudara/i yang ingin memberikan tanda kasih untuk kami, dapat melalui
         </p>
         <br>
 
