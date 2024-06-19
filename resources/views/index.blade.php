@@ -44,9 +44,11 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-flex justify-content-center py-5 uppernav bg-black-transparent d-none d-md-block" style="position: relative; bottom: -80px;" align="center">
+        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent" style="position: relative; bottom: -50px;" align="center">
             <p class="m-0">
-            "It's there, I know it is because when I look at you, I can feel it. And I, I look at you and… I'm home.”
+            بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+            <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
+            <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
             </p>
         </div>
     </section>
@@ -83,8 +85,8 @@
                             <div class="date-wrapper p-4 m-5">
                                 <h4 class="color-milo">Akad</h4>
                                 <p>
-                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/7f8bC54wj7hEakBE7" title="save the date">
-                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 08 September 2024
+                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/a7nprxFxuMoxTKV77" title="save the date">
+                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 01 September 2024
                                         <br><i class="fa-solid fa-clock pe-2"></i>08:00 AM - 09:00 AM
                                     </a>
                                 </p>
@@ -93,9 +95,9 @@
                             <div class="date-wrapper p-4 m-5">
                                 <h4 class="color-milo">Resepsi</h4>
                                 <p>
-                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/7f8bC54wj7hEakBE7" title="save the date">
-                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 08 September 2024
-                                        <br><i class="fa-solid fa-clock pe-2"></i>11:00 AM - 03:00 PM
+                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/a7nprxFxuMoxTKV77" title="save the date">
+                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 01 September 2024
+                                        <br><i class="fa-solid fa-clock pe-2"></i>11:00 AM - 14:00 PM
                                     </a>
                                 </p>
                             </div>
