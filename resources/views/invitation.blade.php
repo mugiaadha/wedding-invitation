@@ -15,7 +15,7 @@
                         <br>
                         <p style="color:#6f555a; font-size:15px;">Minggu, 08 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
                         <br>
-                        <h2 style="color:#6f555a;">{{ $name }}</h2>
+                        <h2 style="color:#6f555a;">{{ $name ?? 'test' }}</h2>
                         <br>
                         <p style="color:#6f555a; font-size:15px;">*Mohon maaf apabila ada kesalahan penulisan nama dan gelar</p>
                         <br>
@@ -65,8 +65,8 @@
                             <div class="date-wrapper p-4 m-5">
                                 <h4 class="color-milo">Akad</h4>
                                 <p>
-                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/7f8bC54wj7hEakBE7" title="save the date">
-                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 08 September 2024
+                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/a7nprxFxuMoxTKV77" title="save the date">
+                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 01 September 2024
                                         <br><i class="fa-solid fa-clock pe-2"></i>08:00 AM - 09:00 AM
                                     </a>
                                 </p>
@@ -75,9 +75,9 @@
                             <div class="date-wrapper p-4 m-5">
                                 <h4 class="color-milo">Resepsi</h4>
                                 <p>
-                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/7f8bC54wj7hEakBE7" title="save the date">
-                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 08 September 2024
-                                        <br><i class="fa-solid fa-clock pe-2"></i>11:00 AM - 03:00 PM
+                                    <a target="_blank" class="color-milo link" target="_blank" href="https://calendar.app.google/a7nprxFxuMoxTKV77" title="save the date">
+                                        <i class="fa-solid fa-calendar-day pe-2"></i>Sunday, 01 September 2024
+                                        <br><i class="fa-solid fa-clock pe-2"></i>11:00 AM - 14:00 PM
                                     </a>
                                 </p>
                             </div>
@@ -95,7 +95,7 @@
                             </div>
                             <div class="invitation container-fluid text-center" data-aos="fade" data-aos-duration="1000">
                                 <div class="qr-code pb-4">
-                                    {!! QrCode::size(250)->generate($uniqid) !!}
+                                    {!! QrCode::size(250)->generate($uniqid ?? 'test') !!}
                                 </div>
                                 <h6 class="color-milo pb-2">Scan QR Code<br>Sebelum masuk tempat pernikahan</h6>
                             </div>
@@ -194,10 +194,10 @@
     <section id="others">
         <div class="my-5" data-aos="fade" data-aos-duration="1000">
             <livewire:wish 
-                :uniqueId="$uniqid"
-                :name="$name"
-                :message="$message"
-                :response="$response">
+                :uniqueId="$uniqid ?? 'test'"
+                :name="$name ?? 'test'"
+                :message="$message ?? 'test'"
+                :response="$response ?? 'test'">
             </livewire:wish>
         </div>
     </section>
