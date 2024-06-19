@@ -1,6 +1,6 @@
 Assalamualaikum Warahmatullahi Wabarakatuh<br>
 <br>
-Kepada Yth {{$name}} 👋<br>
+Kepada yang terhormat, {{$name}} 👋<br>
 <br>
 Dengan penuh sukacita dan kebahagiaan, kami dengan rendah hati mengundang Ibu/Bapak/Saudara/I untuk berbagi momen spesial dalam rencana pernikahan kami:<br>
 <br>
