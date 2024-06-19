@@ -29,7 +29,7 @@
         <div class="century-text" align="center">
             <h3 class="about-title py-3 century-text">─── The Wedding Of ───</h3>
         </div>
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-0 px-0">
             <div class="about d-flex align-items-center flex-column text-center">
                 <div class="erika-text">
                     <h1>Erika Karenina Rusdaya <sub id="nickname">Karin</sub></h1>
@@ -43,18 +43,21 @@
                     <h7>Putra dari Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
                 </div>
             </div>
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-block d-md-none" style="position: relative; bottom: -40px;" align="center">
+                <p class="m-0">
+                mobile
+                بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+                <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
+                <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
+                </p>
+            </div>
         </div>
         <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-none d-md-block" style="position: relative; bottom: -85px;" align="center">
             <p class="m-0">
             desktop
-            بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-            <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
-            <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
-            </p>
-        </div>
-        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-block d-md-none" style="bottom: -40px;" align="center">
-            <p class="m-0">
-            mobile
             بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
             <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
             <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
