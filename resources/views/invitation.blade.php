@@ -72,7 +72,7 @@
                                 <h4 class="color-milo">Tempat</h4>
                                 <p>
                                     <a class="color-milo link" target="_blank" href="https://maps.app.goo.gl/gmTYL5uJHGFxCAyS6?g_st=iw" title="see the location">
-                                        <i class="fa-solid fa-location-dot pe-2"></i>(Villa Skaters) Pasirkaliki, Cimahi Utara, Cimahi City, West Java 40514, <br>Jl. Budi no 90, Pasirkaliki, Cimahi Utara, kota Cimahi
+                                        <i class="fa-solid fa-location-dot pe-2"></i>(Villa Skaters) Jl. Budi no 90, Pasirkaliki, Cimahi Utara, Cimahi City, West Java 40514
                                     </a>
                                 </p>
                             </div>
