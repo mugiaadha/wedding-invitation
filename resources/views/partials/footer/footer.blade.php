@@ -22,10 +22,10 @@
                             data-aos="fade"
                             data-aos-duration="1000"
                             />
-                        <h4 class="color-milo">a/n Erika Karenina Rusdaya</h4>
-                        <a class="color-milo link" href="javascript:;" onclick="copy('5140769764')" title="salin nomor rekening" style="font-size:20px;">
+                        <h4 class="color-milo">a/n Mugia Adha Kusumah</h4>
+                        <a class="color-milo link" href="javascript:;" onclick="copy('5435049467')" title="salin nomor rekening" style="font-size:20px;">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" style="width:15px;"><path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z"></path></svg>
-                            5140769764
+                            5435049467
                         </a>
                     </div>
                 </div>
@@ -40,10 +40,10 @@
                             data-aos="fade"
                             data-aos-duration="1000"
                             />
-                        <h4 class="color-milo">a/n Mugia Adha Kusumah</h4>
-                        <a class="color-milo link" href="javascript:;" onclick="copy('089614696651')" title="salin nomor rekening" style="font-size:20px;">
+                        <h4 class="color-milo">a/n Erika Karenina Rusdaya</h4>
+                        <a class="color-milo link" href="javascript:;" onclick="copy('089635938352')" title="salin nomor rekening" style="font-size:20px;">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256" style="width:15px;"><path d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z"></path></svg>
-                            0896-1469-6651
+                            0896-3593-8352
                         </a>
                     </div>
                 </div>
