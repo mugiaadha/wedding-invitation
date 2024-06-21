@@ -48,19 +48,17 @@
             <br>
             <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-block d-md-none" style="position: relative; bottom: -40px;" align="center">
                 <p class="m-0">
-                mobile
-                بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-                <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
-                <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
+                    بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+                    <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
+                    <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
                 </p>
             </div>
         </div>
         <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-none d-md-block" style="position: relative; bottom: -85px;" align="center">
             <p class="m-0">
-            desktop
-            بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-            <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
-            <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
+                بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+                <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
+                <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
             </p>
         </div>
     </section>
@@ -79,8 +77,8 @@
                             <div class="venue-wrapper p-4">
                                 <h4 class="color-milo">Tempat</h4>
                                 <p>
-                                    <a class="color-milo link" target="_blank" href="https://www.google.com/maps/dir//Jl.+Kolonel+Masturi+No.Km.+3,+Cipageran,+Kec.+Cimahi+Utara,+Kota+Cimahi,+Jawa+Barat+40511/@-6.8481992,107.466372,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x2e68e38a9e165101:0x47ba4cab976c7751!2m2!1d107.5487739!2d-6.8482062?entry=ttu" title="see the location">
-                                        <i class="fa-solid fa-location-dot pe-2"></i>(Kabuci) kampung Buyut Cipageran Asih Putera, <br>Jl. Kolonel Masturi No.Km. 3, Cipageran, Cimahi Utara, <br>Cimahi City, West Java 40511
+                                    <a class="color-milo link" target="_blank" href="https://maps.app.goo.gl/gmTYL5uJHGFxCAyS6?g_st=iw" title="see the location">
+                                        <i class="fa-solid fa-location-dot pe-2"></i>(Villa Skaters) Pasirkaliki, Cimahi Utara, Cimahi City, <br>West Java 40514, <br>Jl. Budi no 90, Pasirkaliki, Cimahi Utara, kota Cimahi
                                     </a>
                                 </p>
                             </div>
