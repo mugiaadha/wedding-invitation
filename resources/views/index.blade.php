@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section("content")
-    <div id="backdrop-open" class="modal-backdrop fade show bg-leaf-repeat animate__animated" style="opacity:100%;" hidden>
+    <div id="backdrop-open" class="modal-backdrop fade show bg-leaf-repeat animate__animated" style="opacity:100%;">
         <div class="container">
             <div class="row">
                 <div class="col-12 my-5 py-5" align="center">
