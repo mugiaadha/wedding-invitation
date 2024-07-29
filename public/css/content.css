@@ -86,7 +86,7 @@
 
 .bg-leaf-repeat {
     background-image: url("../img/bg-leaf-repeat.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100px;
 }
 
