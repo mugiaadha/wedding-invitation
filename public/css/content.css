@@ -86,8 +86,17 @@
 
 .bg-leaf-repeat {
     background-image: url("../img/bg-leaf-repeat.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100px;
+}
+
+.bg-monochrome {
+    background-image: url("../img/gallery/slider14.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center top;
+    height: 100%;
 }
 
 .and-text h1 {
@@ -98,6 +107,15 @@
 @media (max-width: 991px) {
     .about-wrapper {
         background-image: url("../img/bg-about2.png");
+        background-repeat: no-repeat;
+        background-size: 250%;
+        background-position: center top;
+        height: 100%;
+    }
+
+    .bg-monochrome {
+        background-image: url("../img/gallery/slider14.png");
+        background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 250%;
         background-position: center top;

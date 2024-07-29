@@ -47,14 +47,6 @@
             <br>
             <br>
         </div>
-        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-none d-md-block" style="position: relative; bottom: -85px;" align="center">
-            <p class="m-0">
-            desktop
-            بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-            <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
-            <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
-            </p>
-        </div>
     </section>
     <section id="schedule">
         <div data-aos="zoom-in" data-aos-duration="1000" class="py-5">

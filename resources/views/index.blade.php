@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section("content")
-    <div id="backdrop-open" class="modal-backdrop fade show bg-leaf-repeat animate__animated" style="opacity:100%;">
+    <div id="backdrop-open" class="modal-backdrop fade show bg-leaf-repeat animate__animated" style="opacity:100%;" hidden>
         <div class="container">
             <div class="row">
                 <div class="col-12 my-5 py-5" align="center">
@@ -46,22 +46,24 @@
             <br>
             <br>
             <br>
-            <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-block d-md-none" style="position: relative; bottom: -40px;" align="center">
-                <p class="m-0">
-                    بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-                    <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
-                    <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
-                </p>
-            </div>
         </div>
-        <div class="container-fluid d-flex justify-content-center py-4 uppernav bg-black-transparent d-none d-md-block" style="position: relative; bottom: -85px;" align="center">
-            <p class="m-0">
+    </section>
+        
+    <section id="gallery" class="mb-4 bg-monochrome">
+        <br>
+        <br>
+        <h1 class="gallery-title my-3 color-milo" data-aos="zoom-in" data-aos-duration="1000">
+            <strong>
                 بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+            </strong>
+            
+            <p class="m-0" style="font-size:10px; font-family: 'BrandonText';">
                 <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
                 <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
             </p>
-        </div>
+        </h1>
     </section>
+
     <section id="schedule">
         <div data-aos="zoom-in" data-aos-duration="1000" class="py-5">
             <h1 class="schedule-title color-milo" style="font-family: 'BrandonText';">Assalamualaikum wr.wb. </h1>
@@ -117,17 +119,15 @@
             </div>
         </div>
     </section>
-        
-    <section id="gallery" class="mt-5 mb-4">
+
+    <section id="gallery" class="mt-5 mb-4 bg-monochrome">
         <br>
         <br>
         <h1 class="gallery-title my-3 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
-        <div class="container py-5">
+        <div class="container">
             <div class="row">
-                
-                <div class="flicker-example my-3 shadow">
+                <div class="flicker-example my-5 shadow">
                     <ul>
-
                         <li data-background="{{ asset("img/gallery/slider4.png") }}">
                             <div class="flick-title"></div>
                             <div class="flick-sub-text"></div>
@@ -159,48 +159,56 @@
                         </li>
                     </ul>
                 </div>
-                
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+            </div>
+        </div>
+        
+        <!-- Gallery -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                     <img
-                        src="{{ asset("img/gallery/slider1.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
+                    src="{{ asset("img/gallery/slider16.jpg") }}"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                    />
+
+                    <img
+                    src="{{ asset("img/gallery/slider1.png") }}"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Wintry Mountain Landscape"
+                    />
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <div class="col-lg-4 mb-4 mb-lg-0">
                     <img
-                        src="{{ asset("img/gallery/slider4.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
+                    src="{{ asset("img/gallery/slider1.png") }}"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+                    />
+
+                    <img
+                    src="{{ asset("img/gallery/slider1.png") }}"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                    />
                 </div>
 
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+                <div class="col-lg-4 mb-4 mb-lg-0">
                     <img
-                        src="{{ asset("img/gallery/slider10.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
-                </div>
+                    src="{{ asset("img/gallery/slider1.png") }}"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Waves at Sea"
+                    />
 
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
                     <img
-                        src="{{ asset("img/gallery/slider13.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
+                    src="{{ asset("img/gallery/slider1.png") }}"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Yosemite National Park"
+                    />
                 </div>
             </div>
         </div>
+        <!-- Gallery -->
     </section>
 
     <section id="others">
