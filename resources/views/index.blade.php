@@ -13,7 +13,7 @@
                         <br>
                         <h1 style="color:#6f555a;">Erika & Mugia</h1>
                         <br>
-                        <p style="color:#6f555a; font-size:15px;">Minggu, 08 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+                        <p style="color:#6f555a; font-size:15px;">Minggu, 01 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
                         <br>
                         <h2 style="color:#6f555a;">{{ $name ?? 'test' }}</h2>
                         <br>
