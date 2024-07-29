@@ -93,7 +93,7 @@
 .bg-monochrome {
     background-image: url("../img/bg-black-white.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: 100%;
     background-position: center top;
     height: 100%;
@@ -115,7 +115,7 @@
 
     .bg-monochrome {
         background-image: url("../img/bg-black-white.jpg");
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-repeat: no-repeat;
         background-size: 250%;
         background-position: center top;
