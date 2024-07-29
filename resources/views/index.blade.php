@@ -109,7 +109,7 @@
         <h1 class="gallery-title my-5 py-5 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
         <div class="container mb-3 pb-3">
             <div class="row">
-                <video id="treaser" class="w-100" poster="{{ asset("img/thumbnail.jpg") }}" loop controls>
+                <video id="treaser" class="w-100" poster="{{ asset("img/thumbnail.jpg") }}" muted controls>
                     <source src="{{ asset("video/Erika & Mugi.mp4") }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -147,9 +147,9 @@
 
 	<script>
         var snd = new Audio("{{ asset("music/music.mp3") }}");
-        var treaser = document.getElementById('treaser');
+        // var treaser = document.getElementById('treaser').play();
         function soundOn() {
-            treaser.play();
+            snd.play();
             const element = document.querySelector('#backdrop-open');
                   element.style.setProperty('--animate-duration', '4s');
                   element.classList.add('animate__animated', 'animate__slideOutUp', 'animate-duration-5s');
