@@ -14,9 +14,6 @@
     <link href="{{ asset("css/navbar.css") }}" rel="stylesheet">
     <link href="{{ asset("css/content.css") }}" rel="stylesheet">
     <link href="{{ asset("css/footer.css") }}" rel="stylesheet">
-    
-	<link href="{{ asset("css/flickerplate.css") }}"  type="text/css" rel="stylesheet">
-	<link href="{{ asset("css/demo.css") }}"  type="text/css" rel="stylesheet">
     @livewireStyles
 
     <title>{{ $title ?? '' }}</title>

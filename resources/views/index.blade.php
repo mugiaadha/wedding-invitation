@@ -48,21 +48,6 @@
             <br>
         </div>
     </section>
-        
-    <section id="gallery" class="mb-4 bg-monochrome">
-        <br>
-        <br>
-        <h1 class="gallery-title my-3 color-milo" data-aos="zoom-in" data-aos-duration="1000">
-            <strong>
-                بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
-            </strong>
-            
-            <p class="m-0" style="font-size:10px; font-family: 'BrandonText';">
-                <br>Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
-                <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
-            </p>
-        </h1>
-    </section>
 
     <section id="schedule">
         <div data-aos="zoom-in" data-aos-duration="1000" class="py-5">
@@ -120,92 +105,30 @@
         </div>
     </section>
 
-    <section id="gallery" class="mt-5 mb-4 bg-monochrome">
-        <br>
-        <br>
-        <h1 class="gallery-title my-3 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
-        <div class="container">
+    <section id="gallery" class="mb-5 mb-4 bg-monochrome">
+        <h1 class="gallery-title my-5 py-5 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
+        <div class="container mb-3 pb-3">
             <div class="row">
-                <div class="flicker-example my-5 shadow">
-                    <ul>
-                        <li data-background="{{ asset("img/gallery/slider4.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                        
-                        <li data-background="{{ asset("img/gallery/slider8.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                        
-                        <li data-background="{{ asset("img/gallery/slider9.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-
-                        <li data-background="{{ asset("img/gallery/slider10.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                        
-                        <li data-background="{{ asset("img/gallery/slider12.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-
-                        <li data-background="{{ asset("img/gallery/slider13.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                    </ul>
-                </div>
+                <video class="w-100" poster="{{ asset("img/thumbnail.jpg") }}" controls>
+                    <source src="{{ asset("video/Erika & Mugi.mp4") }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
-        
         <!-- Gallery -->
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                    <img
-                    src="{{ asset("img/gallery/slider16.jpg") }}"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                    />
-
-                    <img
-                    src="{{ asset("img/gallery/slider1.png") }}"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Wintry Mountain Landscape"
-                    />
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img
-                    src="{{ asset("img/gallery/slider1.png") }}"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Mountains in the Clouds"
-                    />
-
-                    <img
-                    src="{{ asset("img/gallery/slider1.png") }}"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Boat on Calm Water"
-                    />
-                </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img
-                    src="{{ asset("img/gallery/slider1.png") }}"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Waves at Sea"
-                    />
-
-                    <img
-                    src="{{ asset("img/gallery/slider1.png") }}"
-                    class="w-100 shadow-1-strong rounded mb-4"
-                    alt="Yosemite National Park"
-                    />
-                </div>
+                @for ($i = 1; $i <= 25; $i++)
+                    <div class="col-lg-4 col-md-12 mb-1 mb-lg-0">
+                        <img src="{{ asset("img/gallery/"."slider-$i.jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
+                        @if ($i < 25)
+                            <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
+                        @endif
+                        @if ($i < 25)
+                            <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
+                        @endif
+                    </div>
+                @endfor
             </div>
         </div>
         <!-- Gallery -->
@@ -222,11 +145,7 @@
         </div>
     </section>
 
-	<script src="{{ asset("js/hammer-v2.0.3.js") }}"></script>
-	<script src="{{ asset("js/flickerplate.js") }}"></script>
 	<script>
-		new flickerplate('.flicker-example');
-
         function soundOn() {
             var snd = new Audio("{{ asset("music/music.mp3") }}");
                 snd.play();
