@@ -51,9 +51,6 @@
                     <h7>Putra dari Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
         </div>
     </section>
 
