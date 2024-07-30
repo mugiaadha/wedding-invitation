@@ -19,7 +19,10 @@
                         <br>
                         <p style="color:#6f555a; font-size:15px;">*Mohon maaf apabila ada kesalahan penulisan nama dan gelar</p>
                         <br>
-                        <button class="btn btn-default" style="border: 1px solid #6f555a;" onclick="soundOn()">Buka Undangan</button>
+                        <button class="btn btn-default" style="border: 1px solid #6f555a;" onclick="soundOn()">
+                            <i class="fa-solid fa-envelope-open pe-2"></i>
+                            Buka Undangan
+                        </button>
                     </div>
                 </div>
             </div>
@@ -32,22 +35,25 @@
         <div class="container-fluid py-0 px-0">
             <div class="about d-flex align-items-center flex-column text-center">
                 <div class="erika-text">
-                    <h1>Erika Karenina Rusdaya <sub id="nickname">Karin</sub></h1>
+                    <h1>
+                        Erika Karenina Rusdaya
+                        <br><sub id="nickname">Karin</sub>
+                    </h1>
                     <h7>Putri dari Bpk. Rusdaya & Ibu . Nurhayati AY</h7>
                 </div>
                 <div class="and-text my-3">
                     <h3>&</h3>
                 </div>
                 <div class="mugia-text">
-                    <h1>Mugia Adha Kusumah <sub id="nickname">Mugia</sub></h1>
+                    <h1>Mugia Adha Kusumah
+                        <br><sub id="nickname">Mugia</sub>
+                    </h1>
                     <h7>Putra dari Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
                 </div>
             </div>
-            <br>
-            <br>
-            <br>
         </div>
     </section>
+
     <section id="schedule">
         <div data-aos="zoom-in" data-aos-duration="1000" class="py-5">
             <h1 class="schedule-title color-milo" style="font-family: 'BrandonText';">Assalamualaikum wr.wb. </h1>
@@ -103,90 +109,34 @@
             </div>
         </div>
     </section>
-        
-    <section id="gallery" class="mt-5 mb-4">
-        <br>
-        <br>
-        <h1 class="gallery-title my-3 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
-        <div class="container py-5">
+
+    <section id="gallery" class="mb-5 mb-4 bg-monochrome">
+        <h1 class="gallery-title my-5 py-5 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
+        <div class="container mb-3 pb-3">
             <div class="row">
-                
-                <div class="flicker-example my-3 shadow">
-                    <ul>
-
-                        <li data-background="{{ asset("img/gallery/slider4.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                        
-                        <li data-background="{{ asset("img/gallery/slider8.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                        
-                        <li data-background="{{ asset("img/gallery/slider9.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-
-                        <li data-background="{{ asset("img/gallery/slider10.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                        
-                        <li data-background="{{ asset("img/gallery/slider12.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-
-                        <li data-background="{{ asset("img/gallery/slider13.png") }}">
-                            <div class="flick-title"></div>
-                            <div class="flick-sub-text"></div>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
-                    <img
-                        src="{{ asset("img/gallery/slider1.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
-                    <img
-                        src="{{ asset("img/gallery/slider4.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
-                    <img
-                        src="{{ asset("img/gallery/slider10.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
-                </div>
-
-                <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
-                    <img
-                        src="{{ asset("img/gallery/slider13.png") }}"
-                        class="w-100 shadow  rounded mb-4"
-                        alt="Boat on Calm Water"
-                        data-aos="fade"
-                        data-aos-duration="1000"
-                        />
-                </div>
+                <video id="treaser" class="w-100" poster="{{ asset("img/thumbnail.jpg") }}" controls>
+                    <source src="{{ asset("video/Erika & Mugi.mp4") }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
+        <!-- Gallery -->
+        <div class="container">
+            <div class="row">
+                @for ($i = 1; $i <= 27; $i++)
+                    <div class="col-lg-4 col-md-12 mb-1 mb-lg-0">
+                        <img src="{{ asset("img/gallery/"."slider-$i.jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
+                        @if ($i < 27)
+                            <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
+                        @endif
+                        @if ($i < 27)
+                            <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
+                        @endif
+                    </div>
+                @endfor
+            </div>
+        </div>
+        <!-- Gallery -->
     </section>
 
     <section id="others">
@@ -200,15 +150,19 @@
         </div>
     </section>
 
-	<script src="{{ asset("js/hammer-v2.0.3.js") }}"></script>
-	<script src="{{ asset("js/flickerplate.js") }}"></script>
 	<script>
-		new flickerplate('.flicker-example');
+        var snd = new Audio("{{ asset("music/music.mp3") }}");
+        var treaser = document.getElementById('treaser');
+
+        treaser.addEventListener("play", (event) => {
+            snd.pause()
+        });
+        treaser.addEventListener("pause", (event) => {
+            snd.play()
+        });
 
         function soundOn() {
-            var snd = new Audio("{{ asset("music/music.mp3") }}");
-                snd.play();
-
+            snd.play();
             const element = document.querySelector('#backdrop-open');
                   element.style.setProperty('--animate-duration', '4s');
                   element.classList.add('animate__animated', 'animate__slideOutUp', 'animate-duration-5s');
