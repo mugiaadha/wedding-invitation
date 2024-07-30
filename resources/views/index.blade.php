@@ -19,7 +19,10 @@
                         <br>
                         <p style="color:#6f555a; font-size:15px;">*Mohon maaf apabila ada kesalahan penulisan nama dan gelar</p>
                         <br>
-                        <button class="btn btn-default" style="border: 1px solid #6f555a;" onclick="soundOn()">Buka Undangan</button>
+                        <button class="btn btn-default" style="border: 1px solid #6f555a;" onclick="soundOn()">
+                            <i class="fa-solid fa-envelope-open pe-2"></i>
+                            Buka Undangan
+                        </button>
                     </div>
                 </div>
             </div>
@@ -114,7 +117,7 @@
         <h1 class="gallery-title my-5 py-5 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
         <div class="container mb-3 pb-3">
             <div class="row">
-                <video id="treaser" class="w-100" poster="{{ asset("img/thumbnail.jpg") }}" muted controls>
+                <video id="treaser" class="w-100" poster="{{ asset("img/thumbnail.jpg") }}" controls>
                     <source src="{{ asset("video/Erika & Mugi.mp4") }}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
@@ -123,13 +126,13 @@
         <!-- Gallery -->
         <div class="container">
             <div class="row">
-                @for ($i = 1; $i <= 25; $i++)
+                @for ($i = 1; $i <= 27; $i++)
                     <div class="col-lg-4 col-md-12 mb-1 mb-lg-0">
                         <img src="{{ asset("img/gallery/"."slider-$i.jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
-                        @if ($i < 25)
+                        @if ($i < 27)
                             <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
                         @endif
-                        @if ($i < 25)
+                        @if ($i < 27)
                             <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
                         @endif
                     </div>
@@ -152,7 +155,15 @@
 
 	<script>
         var snd = new Audio("{{ asset("music/music.mp3") }}");
-        // var treaser = document.getElementById('treaser').play();
+        var treaser = document.getElementById('treaser');
+
+        treaser.addEventListener("play", (event) => {
+            snd.pause()
+        });
+        treaser.addEventListener("pause", (event) => {
+            snd.play()
+        });
+
         function soundOn() {
             snd.play();
             const element = document.querySelector('#backdrop-open');
