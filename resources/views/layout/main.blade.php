@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> -->
-    <link rel="shortcut icon" href="{{ asset('img/bg-black-white2.jpg') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
     <link href="{{ asset("css/animate.min.css") }}" rel="stylesheet">
     <link href="{{ asset("css/aos.css") }}" rel="stylesheet">
