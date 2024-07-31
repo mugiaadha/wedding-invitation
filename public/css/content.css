@@ -91,11 +91,12 @@
 }
 
 .bg-backdrop {
-    background-image: url("../img/bg-backdrop.jpg");
-    background-repeat: no-repeat;
-    background-size: 150%;
+    background-image: url("../img/bg-backdrop1.jpg");
+    background-size: 100%;
     background-position: center;
     height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bg-monochrome {
@@ -128,6 +129,14 @@
         height: 100%;
         background-attachment: fixed;
         background-repeat: no-repeat;
+    }
+
+    .bg-backdrop {
+        background-image: url("../img/bg-backdrop.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 100%;
     }
 }
 
