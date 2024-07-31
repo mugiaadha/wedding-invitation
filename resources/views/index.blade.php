@@ -28,9 +28,9 @@
             </div>
         </div>
     </div>
-    <section id="about" class="py-5 about-wrapper" data-aos="fade-down" data-aos-duration="1500">
+    <section id="about" class="pb-5 about-wrapper" data-aos="fade-down" data-aos-duration="1500">
         <div class="century-text" align="center">
-            <h3 class="about-title py-3 century-text">─── The Wedding Of ───</h3>
+            <h3 class="about-title pb-2 pt-5 century-text">─── The Wedding Of ───</h3>
         </div>
         <div class="container-fluid py-0 px-0">
             <div class="about d-flex align-items-center flex-column text-center">
@@ -41,7 +41,7 @@
                     </h1>
                     <h7>Putri dari Bpk. Rusdaya & Ibu . Nurhayati AY</h7>
                 </div>
-                <div class="and-text my-3">
+                <div class="and-text mt-3">
                     <h3>&</h3>
                 </div>
                 <div class="mugia-text">
