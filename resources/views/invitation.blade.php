@@ -7,19 +7,19 @@
                 <div class="col-12 my-5 py-5" align="center">
                     <div class="erika-text">
                         <h4 style="color:#fff;"><strong>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</strong></h4>
-                        <p style="color:#fff; font-size:12px;">
+                        <p style="color:#fff; font-size:16px;">
                             <br>
                             Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
                             <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
                             <br>
                             <br>
                         </p>
-                        <p style="color:#fff; font-size:12px;">The Wedding Of</p>  
+                        <p style="color:#fff; font-size:16px;">The Wedding Of</p>  
 
                         <br>
-                        <h1 style="color:#fff;">Erika & Mugia</h1>
+                        <h1 style="color:#fff; font-size:40px">Erika & Mugia</h1>
                         <br>
-                        <p style="color:#fff; font-size:15px;">Minggu, 01 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+                        <p style="color:#fff; font-size:18px;">Minggu, 01 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
                         <br>
                         <h2 style="color:#fff;">{{ $name ?? 'test' }}</h2>
                         <br>
