@@ -93,7 +93,7 @@
 .bg-backdrop {
     background-image: url("../img/bg-backdrop.jpg");
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 150%;
     background-position: center;
     height: 100%;
 }
