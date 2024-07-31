@@ -16,6 +16,9 @@ Mugia Adha Kusumah<br>
 🗓 Minggu, 01 September 2024<br>
 🕗 11.00 WIB - 14.00 WIB<br>
 <br>
+🗓 Tandai Kalender<br>
+https://calendar.app.google/JP2MoPvXVPdoXUTz6<br>
+<br>
 📍 Tempat: (Villa Skaters) Jl. Budi no 90, Pasirkaliki, Cimahi Utara, kota Cimahi<br>
 https://maps.app.goo.gl/fDUHcVk443pxoSYR6<br>
 <br>
