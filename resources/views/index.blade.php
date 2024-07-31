@@ -34,21 +34,21 @@
         </div>
         <div class="container-fluid py-0 px-0">
             <div class="about d-flex align-items-center flex-column text-center">
+                <div class="mugia-text">
+                    <h1>Mugia Adha Kusumah
+                        <br><sub id="nickname">Mugia</sub>
+                    </h1>
+                    <h7>Putra dari Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
+                </div>
+                <div class="and-text mt-3">
+                    <h3>&</h3>
+                </div>
                 <div class="erika-text">
                     <h1>
                         Erika Karenina Rusdaya
                         <br><sub id="nickname">Karin</sub>
                     </h1>
                     <h7>Putri dari Bpk. Rusdaya & Ibu . Nurhayati AY</h7>
-                </div>
-                <div class="and-text mt-3">
-                    <h3>&</h3>
-                </div>
-                <div class="mugia-text">
-                    <h1>Mugia Adha Kusumah
-                        <br><sub id="nickname">Mugia</sub>
-                    </h1>
-                    <h7>Putra dari Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
                 </div>
             </div>
         </div>
