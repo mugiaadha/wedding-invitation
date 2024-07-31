@@ -90,6 +90,12 @@
     background-size: 100px;
 }
 
+.bg-backdrop {
+    background-image: url("../img/bg-backdrop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .bg-monochrome {
     background-image: url("../img/bg-black-white.jpg");
     background-size: 100%;
@@ -109,7 +115,7 @@
         background-image: url("../img/bg-about2.png");
         background-repeat: no-repeat;
         background-size: 200%;
-        background-position: center top;
+        background-position: center;
         height: 100%;
     }
 
