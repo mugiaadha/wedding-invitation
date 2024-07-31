@@ -8,6 +8,10 @@ Erika Karenina Rusdaya<br>
 &<br>
 Mugia Adha Kusumah<br>
 <br>
+Informasi lengkap acara<br>
+Silakan kunjungi undangan digital kami di:<br>
+🌐 {{ route('invite', $uniqid) }}<br>
+<br>
 🎊 Akad akan dilangsungkan pada:<br>
 🗓 Minggu, 01 September 2024<br>
 🕗 08.00 WIB - 09.00 WIB<br>
@@ -15,10 +19,6 @@ Mugia Adha Kusumah<br>
 🥂 Resepsi akan diadakan pada:<br>
 🗓 Minggu, 01 September 2024<br>
 🕗 11.00 WIB - 14.00 WIB<br>
-<br>
-Informasi lengkap acara<br>
-Silakan kunjungi undangan digital kami di:<br>
-🌐 {{ route('invite', $uniqid) }}<br>
 <br>
 🗓 Tandai Kalender<br>
 https://calendar.app.google/JP2MoPvXVPdoXUTz6<br>
