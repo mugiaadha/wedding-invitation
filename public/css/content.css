@@ -93,7 +93,9 @@
 .bg-backdrop {
     background-image: url("../img/bg-backdrop.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 200%;
+    background-position: center;
+    height: 100%;
 }
 
 .bg-monochrome {
