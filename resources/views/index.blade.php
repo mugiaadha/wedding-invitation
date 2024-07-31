@@ -6,10 +6,16 @@
             <div class="row">
                 <div class="col-12 my-5 py-5" align="center">
                     <div class="erika-text">
-                        <br>
-                        <br>
-                        <br>
-                        <p style="color:#6f555a;">The Wedding Of</p>
+                        <h4 style="color:#6f555a;"><strong>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</strong></h4>
+                        <p style="color:#6f555a; font-size:12px;">
+                            <br>
+                            Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
+                            <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
+                            <br>
+                            <br>
+                        </p>
+                        <p style="color:#6f555a; font-size:12px;">The Wedding Of</p>  
+
                         <br>
                         <h1 style="color:#6f555a;">Erika & Mugia</h1>
                         <br>
