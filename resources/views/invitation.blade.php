@@ -6,24 +6,24 @@
             <div class="row">
                 <div class="col-12 my-5 py-5" align="center">
                     <div class="erika-text">
-                        <h4 style="color:#6f555a;"><strong>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</strong></h4>
-                        <p style="color:#6f555a; font-size:12px;">
+                        <h4 style="color:#aa7f23;"><strong>بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</strong></h4>
+                        <p style="color:#aa7f23; font-size:12px;">
                             <br>
                             Maha suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.
                             <br>Ya Allah, perkenankanlah kami merangkaikan kasih sayang yang Kau ciptakan diantara kami
                             <br>
                             <br>
                         </p>
-                        <p style="color:#6f555a; font-size:12px;">The Wedding Of</p>  
+                        <p style="color:#aa7f23; font-size:12px;">The Wedding Of</p>  
 
                         <br>
-                        <h1 style="color:#6f555a;">Erika & Mugia</h1>
+                        <h1 style="color:#aa7f23;">Erika & Mugia</h1>
                         <br>
-                        <p style="color:#6f555a; font-size:15px;">Minggu, 01 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
+                        <p style="color:#aa7f23; font-size:15px;">Minggu, 01 September 2024<br>Kepada Yth. Bapak/Ibu/Saudara/i</p>
                         <br>
-                        <h2 style="color:#6f555a;">{{ $name ?? 'test' }}</h2>
+                        <h2 style="color:#aa7f23;">{{ $name ?? 'test' }}</h2>
                         <br>
-                        <p style="color:#6f555a; font-size:15px;">*Mohon maaf apabila ada kesalahan penulisan nama dan gelar</p>
+                        <p style="color:#aa7f23; font-size:15px;">*Mohon maaf apabila ada kesalahan penulisan nama dan gelar</p>
                         <br>
                         <button class="btn btn-default" style="border: 1px solid #6f555a;" onclick="soundOn()">
                             <i class="fa-solid fa-envelope-open pe-2"></i>
@@ -180,3 +180,4 @@
         }
 	</script>
 @endsection
+
