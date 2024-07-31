@@ -122,8 +122,8 @@
     }
 
     .bg-monochrome {
-        background-image: url("../img/bg-black-white.jpg");
-        background-size: 250%;
+        background-image: url("../img/bg-black-white2.jpg");
+        background-size: 100%;
         background-position: center top;
         height: 100%;
         background-attachment: fixed;

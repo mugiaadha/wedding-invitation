@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <section id="gallery" class="mb-5 mb-4 bg-monochrome">
+    <section id="gallery" class="mb-5 mb-4 py-5 bg-monochrome">
         <h1 class="gallery-title my-5 py-5 color-milo" data-aos="zoom-in" data-aos-duration="1000"><strong>Gallery</strong></h1>
         <div class="container mb-3 pb-3">
             <div class="row">
