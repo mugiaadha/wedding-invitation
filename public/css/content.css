@@ -116,7 +116,7 @@
     .about-wrapper {
         background-image: url("../img/bg-about2.png");
         background-repeat: no-repeat;
-        background-size: 250%;
+        background-size: 200%;
         background-position: center;
         height: 100%;
     }
@@ -133,7 +133,7 @@
     .bg-backdrop {
         background-image: url("../img/bg-backdrop.jpg");
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: 150%;
         background-position: center top;
         height: 100%;
     }
