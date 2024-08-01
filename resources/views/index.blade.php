@@ -45,7 +45,7 @@
                     <h1>Mugia Adha Kusumah
                         <br><sub id="nickname">Mugia</sub>
                     </h1>
-                    <h7>Putra dari Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
+                    <h7>Putra dari Alm. Bpk. Perdana Kusumah & Ibu. Nani Sumarni</h7>
                 </div>
                 <div class="and-text mt-3">
                     <h3>&</h3>
