@@ -160,8 +160,9 @@
 
 	<script>
         var snd = new Audio("{{ asset("music/music.mp3") }}");
-        var treaser = document.getElementById('treaser');
+            snd.loop = true;
 
+        var treaser = document.getElementById('treaser');
         treaser.addEventListener("play", (event) => {
             snd.pause()
         });
