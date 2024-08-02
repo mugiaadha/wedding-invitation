@@ -36,6 +36,11 @@
     </div>
     <section id="about" class="pb-5 about-wrapper" data-aos="fade-down" data-aos-duration="1500">
         <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="century-text" align="center">
             <h3 class="about-title pb-2 pt-5 century-text">─── The Wedding Of ───</h3>
         </div>
@@ -59,6 +64,11 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
     </section>
 
