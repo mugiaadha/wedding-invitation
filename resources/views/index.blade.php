@@ -132,7 +132,7 @@
         <div class="container">
             <div class="row">
                 @for ($i = 1; $i <= 27; $i++)
-                    <div class="col-lg-4 col-md-12 mb-1 mb-lg-0">
+                    <div class="col-lg-4 col-md-4 col-sm-4 mb-1 mb-lg-0">
                         <img src="{{ asset("img/gallery/"."slider-$i.jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
                         @if ($i < 27)
                             <img src="{{ asset("img/gallery/slider-".($i+=1).".jpg") }}" title="{{$i}}" class="w-100 shadow-1-strong rounded mb-4"/>
