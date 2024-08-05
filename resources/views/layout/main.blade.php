@@ -98,7 +98,6 @@
         .box-milo {
             border: 5px solid #f0e5ce;
             border-radius: 5%;
-            height: 500px;
         }
     </style>
 </head>
