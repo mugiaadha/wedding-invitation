@@ -83,8 +83,8 @@
                                 </p>
                             </div>
                             <div class="invitation container-fluid text-center" data-aos="fade" data-aos-duration="1000">
-                                <div class="qr-code pb-4" id="reader">
-                                    <!-- {!! QrCode::size(250)->generate($uniqid ?? 'test') !!} -->
+                                <div class="qr-code pb-4">
+                                    {!! QrCode::size(250)->generate($uniqid ?? 'test') !!}
                                 </div>
                                 <h6 class="color-milo pb-2">Scan QR Code<br>Sebelum masuk tempat pernikahan</h6>
                             </div>
@@ -158,17 +158,7 @@
         </div>
     </section>
 
-    <script src="{{ asset("js/html5-qrcode.min.js") }}"></script>
 	<script>
-        function onScanSuccess(decodedText, decodedResult) {
-            // Handle on success condition with the decoded text or result.
-            console.log(`Scan result: ${decodedText}`, decodedResult);
-        }
-
-        var html5QrcodeScanner = new Html5QrcodeScanner(
-            "reader", { fps: 10, qrbox: 250 });
-        html5QrcodeScanner.render(onScanSuccess);
-
         var snd = new Audio("{{ asset("music/music.mp3") }}");
             snd.loop = true;
 
